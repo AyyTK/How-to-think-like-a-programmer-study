@@ -1,0 +1,55 @@
+# How to think like a Programmer
+# Coding Tech YouTube
+# by Andy Harris
+
+# Ask the user for 2 numbers and add them
+
+# Create an integer value for x
+x = 0
+# Create an integer value for y
+y = 0
+# Create an integer value for sum
+sum = 0
+# Ask the user "x =  " and put answer in x
+x = input("x:  ")
+# Ask the user "y =  " and put answer in y
+y = input("y:  ")
+# Put x + y in sum
+sum = x + y
+# Convert x to integer
+x = int(x)
+# Convert y to integer
+y = int(y)
+# Tell user "answer is " sum
+print ("Sum is:  ")
+print (sum)
+
+
+#                         For loop
+# Sentry: Integer variable that will control loop
+#
+# Start: Integer value of sentry at beginning
+#
+# Finish: Integer value of sentry at end
+#
+# Change: Integer to add to sentry at each pass
+#
+#
+#                         For loop algorithm
+# Begin with sentry at start and add change to #sentry on each pass until sentry is larger than or #equal to finish.
+#
+#
+#                          While loop
+# Sentry: variable that will control loop
+#
+# Initialization code: code that initializes sentry
+#
+# Condition: loop repeats if condition is true
+#
+# Change code: code to change sentry so condition can be triggered
+#
+#
+#                        While loop algorithm
+# Initialize sentry with initialization code then
+# continue loop as long as condition is true.
+# Inside loop change sentry with change code.
